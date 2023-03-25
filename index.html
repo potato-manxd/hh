@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <header>
+                <img class="logi" src="logo.svg" alt="splt tter" />
+            </header>
+            <div class="tipcalc">
+                <form action="" method="get" accept-charset="utf-8">
+                    <label for="Bill">Bill</label>
+                    <input type="number" name="Bill" id="Bill" value="0" />
+                    <img class="ds" src="icon-dollar.svg" alt="" />
+                    <h2 class="">Select Tip %</h2>
+                    <button><span>5</span>%</button>
+                    <button><span>10</span>%</button>
+                    <button><span>15</span>%</button>
+                    <button><span>25</span>%</button>
+                    <button class="error"><span>50</span>%</button>
+                    <div class="cus">
+                        <button class="cub">custom</button>
+                        <input type="number" name="" id="cust" value="0" />
+                    </div>
+                    <label for="npeople">Number of people</label>
+                    <input type="number" name="npeople" id="npeople" value="0" />
+                    <img class="ds" src="icon-person.svg" alt="" />
+                    <div class="cost">
+                        <h3 class="ta">Tip Amount <br /><span>/ person</span> </h3>
+                        <h3 class="tn">$<span class="a">0.00</span></h3>
+                        <h3 class="total">Total <br /><span>/ person </span></h3>
+                        <h3 class="tn">$<span class="b">0.00</span></h3>
+                        <button class="r">reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
